@@ -25,13 +25,14 @@
 .item {
     width: 50vw;
     height: 50vh;   
-    transition: all 1s;
+    transition: all 0.5s;
     
 }
 .item img{
     width: 50vw;
     height: 50vh;
     border-radius: 10px;
+    object-fit: cover;
 }
 .item:first-child{
     margin-left: -100%;
@@ -49,7 +50,7 @@
 .action-botton:hover{
     color: white;
     background-color: #00000099;
-    border-radius: 10PX;
+    border-radius: 10px;
     cursor: pointer;
-    transition: all 1s;
+    transition: all 0.5s;
 }
